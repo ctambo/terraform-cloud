@@ -11,10 +11,7 @@ provider "null" {
   # Configuration options
 }
 
-/* a list of local variables */
-locals {
-  jones = ["indy", "henry", "marian"]
-}
+
 /* a list of local variables */
 locals {
   jones = ["indy", "henry", "marian", "katanga"]
