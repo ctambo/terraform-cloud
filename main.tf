@@ -15,6 +15,10 @@ provider "null" {
 locals {
   jones = ["indy", "henry", "marian"]
 }
+/* a list of local variables */
+locals {
+  jones = ["indy", "henry", "marian", "katanga"]
+}
 
 
 /* The null_resource implements the standard resource lifecycle but takes no more action */
